@@ -1,0 +1,159 @@
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+
+  
+.card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+form{
+    background-color: #eee;
+    color: #222;
+    font-size: 22px;
+    padding: 80px 32px;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+  input[type="file"] {
+    display: none;
+  }
+
+  .upload-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .upload-btn:hover {
+    background-color: #e53935;
+  }
+
+  .img-preview {
+    display: none; 
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .submit-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* @keyframes shake {
+    0% { transform: translateX(0); }
+    10%, 90% { transform: translateX(-10px); }
+    20%, 80% { transform: translateX(10px); }
+    30%, 50%, 70% { transform: translateX(-10px); }
+    40%, 60% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  
+  } */
+
+  .animate {
+    animation: shake 0.5s;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+.image-scroller {
+white-space: nowrap;
+overflow-x: auto;
+-webkit-overflow-scrolling: touch;
+}
+
+.img_pos{
+float: left;
+width: 50%;
+height: 50%;
+
+}
+
+.img_posi{
+  float: right;
+  width: 50%;
+  height: 50%;
+}
+
+.short-about{
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.pos{
+ position: absolute;
+ width: 85%;
+ Left: 7.5%;
+ background-color: rgb(255, 255, 255);
+ padding: 30px;
+}
+
+.donate-btn {
+  background-color: #e70c0c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.donate-btn:hover {
+  background-color: #ee0a0a;
+  text-color: #222;
+}
